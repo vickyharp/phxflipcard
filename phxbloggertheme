@@ -186,9 +186,9 @@ Name: Dynamic Views
       ]]>
     </b:template-skin>
 
-    <script expr:src='data:blog.dynamicViewsScriptSrc + &quot;/js/thirdparty/jquery.js&quot;' type='text/javascript'/>
-    <script expr:src='data:blog.dynamicViewsScriptSrc + &quot;/js/thirdparty/jquery-mousewheel.js&quot;' type='text/javascript'/>
-    <script expr:src='data:blog.dynamicViewsScriptSrc + &quot;/js/common.js&quot;' type='text/javascript'/>
+    <script src='//www.blogblog.com/dynamicviews/fde3fbc4763c0fab/js/thirdparty/jquery.js' type='text/javascript'/>
+	<script src='//www.blogblog.com/dynamicviews/fde3fbc4763c0fab/js/thirdparty/jquery-mousewheel.js' type='text/javascript'/>
+	<script src='//www.blogblog.com/dynamicviews/fde3fbc4763c0fab/js/common.js' type='text/javascript'/>
     <b:if cond='data:blog.localeUnderscoreDelimited != &quot;en&quot;'>
       <script expr:src='data:blog.dynamicViewsScriptSrc +           &quot;/js/languages/lang__&quot; + data:blog.localeUnderscoreDelimited + &quot;.js&quot;' type='text/javascript'/>
     </b:if>
